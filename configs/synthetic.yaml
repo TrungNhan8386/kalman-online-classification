@@ -1,0 +1,15 @@
+seed: 0
+wandb:
+  project: kalman-online-classification
+  tags: [reproduction, synthetic]
+data:
+  num_steps: 5000
+  dim: 20
+  num_classes: 2
+  drift: gradual        # gradual | abrupt | none
+  drift_scale: 0.05     # độ lớn drift mỗi bước (gradual)
+  switch_every: 1000    # chu kỳ đổi trọng số (abrupt)
+model:
+  method: sgd           # sgd | kalman
+  lr: 0.1
+  # TODO: điền hyperparameter của Kalman filter theo đúng mô tả trong paper

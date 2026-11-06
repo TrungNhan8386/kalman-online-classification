@@ -1,0 +1,13 @@
+seed: 0
+wandb:
+  project: kalman-online-classification
+  tags: [reproduction, cifar100]
+data:
+  hf_dataset: uoft-cs/cifar100
+  label_column: fine_label
+  features_dir: features
+  backbone: resnet18    # TODO: đối chiếu backbone với paper
+  # TODO: mô tả protocol non-stationary (thứ tự dữ liệu) đúng như paper
+model:
+  method: sgd
+  lr: 0.01
