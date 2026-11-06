@@ -1,5 +1,6 @@
 seed: 0
 wandb:
+  entity: nhan-ng-hcmus
   project: kalman-online-classification
   tags: [reproduction, cifar100]
 data:

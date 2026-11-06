@@ -4,8 +4,8 @@ Term project môn **Introduction to Machine Learning (HCMUS)**: đọc hiểu, t
 
 > M. K. Titsias, A. Galashov, A. Rannen-Triki, R. Pascanu, Y. W. Teh, J. Bornschein, "Kalman Filter for Online Classification of Non-Stationary Data," in *Proc. International Conference on Learning Representations (ICLR)*, 2024. [Poster](https://iclr.cc/virtual/2024/poster/18380) · [arXiv:2306.08448](https://arxiv.org/abs/2306.08448)
 
-- **Nhóm:** Team `<ID>` — `<tên thành viên 1>`, `<tên thành viên 2>`, ...
-- **W&B project (public):** `<https://wandb.ai/ENTITY/kalman-online-classification>`
+- **Nhóm:** Team 4 — Trần Phước Tài, Nguyễn Đặng Hoàng Khang, Nguyễn Trần Trung Nhân
+- **W&B project (public):** https://wandb.ai/nhan-ng-hcmus/kalman-online-classification
 - **Scope reproduction:** Core scope (lý do: xem mục [Scope](#scope))
 
 ## Cấu trúc repo
